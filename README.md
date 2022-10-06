@@ -3,7 +3,7 @@
 composer update
 php artisan vendor:publish
 npm install
-
+php artisan key:generate
 ==Seed & Migrate
 
 php artisan migrate
